@@ -13,3 +13,11 @@ streams:
   dvr1_ch2: rtsp://admin:Suporte0214@192.168.31.101:554/cam/realmonitor?channel=2&subtype=1
 
   dvr2_ch1: rtsp://admin:Suporte0214@192.168.31.102:554/cam/realmonitor?channel=1&subtype=1
+
+
+
+
+streams:
+  dvr1_ch1:
+    - rtsp://admin:Suporte0214@192.168.31.101:554/cam/realmonitor?channel=1&subtype=1
+    - rtsp://admin:Suporte0214@192.168.31.101:554/cam/realmonitor?channel=1&subtype=0
