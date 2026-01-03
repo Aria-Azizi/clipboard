@@ -21,3 +21,7 @@ streams:
   dvr1_ch1:
     - rtsp://admin:Suporte0214@192.168.31.101:554/cam/realmonitor?channel=1&subtype=1
     - rtsp://admin:Suporte0214@192.168.31.101:554/cam/realmonitor?channel=1&subtype=0
+
+
+
+http://SERVER_IP:1984/stream.html?src=test_dvr1_ch1&mode=webrtc
